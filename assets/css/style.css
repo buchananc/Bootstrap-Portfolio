@@ -15,10 +15,12 @@
 
 }
 
-.img-responsive {
-    height: 150px;
-    width: 100%;
-    margin-right:0px;
-    margin-left:0px;
-    border:none;
+/*Center responsive images - doesn't work*/
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
+.img-circle {
+    height: 160px;
+    margin: 0 auto;
 }
