@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>You've Arrived!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
 <div class="bg"> 
@@ -29,10 +30,10 @@
     
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
-                <img class="img-circle img-responsive" alt="Profile Picture" src="assets/imgs/profilepicsquare.jpg" />
+                <img class="img-circle img-responsive profilepic" alt="Profile Picture" src="assets/imgs/profilepicsquare.jpg" />
             </div>
             <div class="col-sm-7">
                 <div class="page-header">
@@ -50,77 +51,80 @@
                         <small>I'm Candace.</small>
                     </h1>
                 </div>
-                <div class="row">
+                <div class="row"> <!--Used DJB Coffee Shoppe Font for images in this section-->
                     <div class="col-sm-4">
                         <div class="img-responsive">
-                            <img src="assets/imgs/resume.jpg" class="img-circle" alt="resume"/>
+                            <a href="resume.html"><img src="assets/imgs/resume.jpg" class="img-circle" alt="resume"></a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="img-responsive">
-                            <img src="assets/imgs/work.jpg" class="img-circle" alt="work"/>
+                            <a href="portfolio.html"><img src="assets/imgs/work.jpg" class="img-circle" alt="work"></a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="img-responsive">
-                            <div class="img-center">
-                                <img src="assets/imgs/skills1.jpg" class="img-circle" alt="skills"/>
-                            </div>
+                            <a href="skills.html"><img src="assets/imgs/skills1.jpg" class="img-circle" alt="skills"></a>
                         </div>
                     </div>
                 </div>
-                <h2>Hello!</h2>
+                <h2>FRONT-END WEB DEVELOPER</h2>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                    ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                </p>
-                <p>
-                    <a class="btn" href="#">View details »</a>
+                    Highly motivated front-end developer with a growing portfolio.  I started to learn programming on my own while I taught Technology to elementary students. I am driven and permanently curious. I am now specialized in fixing front-end issues that other technology providers can't manage.
                 </p>
             </div>
-        </div>
+        </div> <!--End of About Me section-->
+
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-1"> <!--Empty container-->
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="row">
-                            <div class="col-sm-6">
-                            </div>
-                            <div class="col-sm-6">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="row">
-                            <div class="col-sm-6">
-                            </div>
-                            <div class="col-sm-6">
+                            <div class="img-fluid">
+                                <img src="assets/imgs/phone.png" class="socialcon" alt="phone" height="75" width="75">
+                                <p>Call</p>
+                                <p>919.920.0818</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="row">
-                            <div class="col-sm-6">
-                            </div>
-                            <div class="col-sm-6">
+                            <div class="img-fluid socialcon">
+                                <img src="assets/imgs/mail.png" class="socialcon" alt="mail" height="75" width="75">
+                                <p>Contact</p> 
+                                <p>candacebuchanan7@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="img-fluid socialcon">
+                                <img src="assets/imgs/atsign.png" class="socialcon" alt="atsign" height="75" width="75">
+                                <p>Follow Me</p>
+                                <p>Coming Soon!</p>
                             </div>
-                            <div class="col-sm-6">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <div class="img-fluid socialcon">
+                                <img src="assets/imgs/heart.png" class="socialcon" alt="heart" height="75" width="75">
+                                <p>Coming Soon!</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-1"><!--Empty container-->
             </div>
         </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-dark bg-white">Copyright 2018</p>
+            </div>
+        </footer>
     </div>
 </div>
 </body>
