@@ -2,18 +2,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background-image: url("../imgs/watercolor.jpg");
 }
-
-.bg { 
-    /* The image used */
-    background-image: url("../imgs/watercolor.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}    
+  
 
 
 .navbar-header {
