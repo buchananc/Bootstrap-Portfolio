@@ -78,3 +78,19 @@ p {
 footer {
     padding-top: 30px;
 }
+
+/*Portfolio*/
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.portfoliopic {
+    display: block;
+    margin: auto;
+    
+}
